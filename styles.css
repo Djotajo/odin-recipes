@@ -1,10 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 * {
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
 .recipelist {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 5px;
+    padding: 10px 30px;
+    width: 900px;
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    border-width: 2px;
+    border-style: groove;
 }
 
 body {
@@ -15,13 +31,51 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 36px;
+    padding: 5px;
 }
 
 .ingredients {
     background-color: lightcyan;
+    border-style: dashed;
+    border-width: 1px;
+    padding: 10px 25px;
+    width: 900px;
+    margin: auto;
 }
 
 .description {
     font-size: 20px;
     color: darkblue;
+    padding: 10px 25px;
+    width: 900px;
+    margin: auto;
+    border-width: 2px;
+    border-style: double;
+}
+
+.steps {
+    border-style: dotted;
+    border-width: 1px;
+    padding: 10px 30px;
+    width: 900px;
+    margin: auto;
+}
+
+li {
+    padding: 3px;
+}
+
+img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px 30px;
+    width: 900px;
+    margin: auto;
+    font-size: 24px;
 }
